@@ -1,10 +1,19 @@
 # Samyak Jain Portfolio
 
-Static, production-ready personal portfolio for Samyak Jain — Backend, Data Infrastructure, and AI Systems Engineer.
+A production-ready Vite + React portfolio for Samyak Jain — Senior Backend, Data Infrastructure, and Applied AI Engineer available for remote USD roles and selective freelance contracts.
+
+## Stack
+
+- Vite
+- React
+- TypeScript
+- CSS custom design system
+- GitHub Pages
 
 ## Local development
 
 ```bash
+npm install
 npm run dev
 ```
 
@@ -14,14 +23,14 @@ npm run dev
 npm run build
 ```
 
-Output goes to `dist/`.
+The production build is emitted to `docs/` because GitHub Pages serves this repository from `main /docs`.
 
 ## Sections
 
 - Hero
 - About
 - Experience timeline
-- GitHub projects
+- Selected projects
 - Skills
 - Contact
 
