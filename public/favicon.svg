@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Samyak Jain monogram">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.52" stop-color="#080c10"/>
+      <stop offset="1" stop-color="#05151a"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="14" y1="14" x2="50" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6ff7ff"/>
+      <stop offset="1" stop-color="#00e5ff"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <path d="M12 20.5 22.5 13h19L52 20.5v23L41.5 51h-19L12 43.5z" fill="none" stroke="#00e5ff" stroke-opacity=".35" stroke-width="2"/>
+  <path d="M17 24h30" stroke="#00e5ff" stroke-opacity=".18" stroke-width="1"/>
+  <path d="M18 40h28" stroke="#00e5ff" stroke-opacity=".12" stroke-width="1"/>
+  <text x="32" y="38" text-anchor="middle" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="20" font-weight="800" letter-spacing="-1.5" fill="#f0f6ff">SJ</text>
+  <path d="M21 47h22" stroke="url(#cyan)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+  <rect x="45" y="44" width="5" height="8" rx="1" fill="#00e5ff" filter="url(#glow)"/>
+</svg>
