@@ -8,12 +8,12 @@
   --text-primary: #f0f6ff;
   --text-secondary: #9aa7b3;
   --text-muted: #5b6875;
-  --accent: #00e5ff;
-  --accent-strong: #6ff7ff;
-  --accent-dim: rgba(0, 229, 255, 0.13);
-  --accent-line: rgba(0, 229, 255, 0.32);
+  --accent: #3f9fb5;
+  --accent-strong: #8ac7d3;
+  --accent-dim: rgba(63, 159, 181, 0.12);
+  --accent-line: rgba(63, 159, 181, 0.28);
   --border: rgba(255, 255, 255, 0.09);
-  --border-strong: rgba(0, 229, 255, 0.26);
+  --border-strong: rgba(63, 159, 181, 0.24);
   --success: #3fb950;
   --warning: #d29922;
   --danger: #f85149;
@@ -32,7 +32,7 @@ body {
   margin: 0;
   color: var(--text-primary);
   background:
-    radial-gradient(circle at 18% 14%, rgba(0, 229, 255, 0.13), transparent 26%),
+    radial-gradient(circle at 18% 14%, rgba(63, 159, 181, 0.12), transparent 26%),
     radial-gradient(circle at 85% 5%, rgba(63, 185, 80, 0.08), transparent 28%),
     linear-gradient(135deg, #05070a 0%, var(--bg-base) 46%, #0a1117 100%);
   font-family: 'JetBrains Mono', monospace;
@@ -56,8 +56,8 @@ body::after {
   pointer-events: none;
   z-index: 0;
   background-image:
-    linear-gradient(rgba(0, 229, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 229, 255, 0.035) 1px, transparent 1px);
+    linear-gradient(rgba(63, 159, 181, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(63, 159, 181, 0.03) 1px, transparent 1px);
   background-size: 72px 72px;
   mask-image: linear-gradient(to bottom, black 0%, transparent 72%);
 }
@@ -112,7 +112,7 @@ main, .nav {
   border: 1px solid var(--border-strong);
   color: var(--accent);
   background: var(--accent-dim);
-  box-shadow: 0 0 24px rgba(0, 229, 255, 0.18);
+  box-shadow: 0 0 24px rgba(63, 159, 181, 0.18);
 }
 
 .nav-links {
@@ -226,7 +226,7 @@ h3 {
 .primary {
   color: #001116;
   background: linear-gradient(135deg, var(--accent), var(--accent-strong));
-  box-shadow: 0 0 34px rgba(0, 229, 255, 0.18);
+  box-shadow: 0 0 34px rgba(63, 159, 181, 0.18);
 }
 
 .secondary {
@@ -237,7 +237,7 @@ h3 {
 .secondary:hover,
 .secondary:focus {
   border-color: var(--border-strong);
-  box-shadow: 0 0 28px rgba(0, 229, 255, 0.11);
+  box-shadow: 0 0 28px rgba(63, 159, 181, 0.10);
 }
 
 .command-panel,
@@ -344,7 +344,7 @@ h3 {
   right: -80px;
   top: -80px;
   border: 1px solid var(--border-strong);
-  box-shadow: 0 0 80px rgba(0, 229, 255, 0.14);
+  box-shadow: 0 0 80px rgba(63, 159, 181, 0.12);
   transform: rotate(45deg);
 }
 
@@ -395,7 +395,7 @@ h3 {
   width: 14px;
   height: 14px;
   background: var(--accent);
-  box-shadow: 0 0 24px rgba(0, 229, 255, 0.72);
+  box-shadow: 0 0 24px rgba(63, 159, 181, 0.46);
 }
 
 .experience-topline {
@@ -434,7 +434,7 @@ h3 {
   padding: 7px 10px;
   color: var(--text-primary);
   background: var(--accent-dim);
-  border: 1px solid rgba(0, 229, 255, 0.16);
+  border: 1px solid rgba(63, 159, 181, 0.14);
   font-size: 12px;
 }
 
@@ -457,7 +457,7 @@ h3 {
 .project-card:focus {
   transform: translateY(-4px);
   border-color: var(--border-strong);
-  box-shadow: 0 28px 90px rgba(0, 229, 255, 0.1);
+  box-shadow: 0 28px 90px rgba(63, 159, 181, 0.09);
 }
 
 .project-card h3,
