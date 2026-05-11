@@ -1,6 +1,6 @@
 # Samyak Jain Portfolio
 
-A production-ready Vite + React portfolio for Samyak Jain — Senior Backend, Data Infrastructure, and Applied AI Engineer available for remote USD roles and selective freelance contracts.
+A production-ready Vite + React portfolio for Samyak Jain — Senior SDE, AI Native SDE, and Applied AI Engineer positioning.
 
 ## Stack
 

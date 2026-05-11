@@ -2,7 +2,24 @@ export const stats = [
   { value: '5+', label: 'Years engineering production systems' },
   { value: '150K+', label: 'Peak requests/sec handled' },
   { value: '98%', label: 'Cache hit rate achieved' },
-  { value: '6+', label: 'Production CDC pipelines' },
+  { value: '2', label: 'Applied AI projects featured' },
+];
+
+export const contactLinks = {
+  email: 'mailto:sj221097@gmail.com',
+  bookCall: 'mailto:sj221097@gmail.com?subject=Senior%20backend%20role%20intro',
+  resume: 'mailto:sj221097@gmail.com?subject=Resume%20request',
+  linkedin: 'https://www.linkedin.com/in/silver-samyak',
+  github: 'https://github.com/Samyak-jain7',
+};
+
+export const proofPoints = [
+  'Amazon',
+  'Fivetran',
+  'Observe.AI',
+  'Allen Digital',
+  'Backend ownership',
+  'AI-native systems',
 ];
 
 export const experiences = [
@@ -66,26 +83,68 @@ export const experiences = [
 export const projects = [
   {
     title: 'Document Intelligence',
-    signal: 'Applied AI contract use-case',
+    category: 'Applied AI / RAG',
+    signal: 'Role-relevant AI backend',
     description:
-      'RAG-based document platform for PDF upload, text extraction, semantic search, and AI-powered document chat — relevant for legal, finance, HR, support, and internal knowledge-base automation contracts.',
+      'RAG-based document platform for PDF upload, extraction, semantic search, and AI-powered document chat for legal, finance, HR, support, and internal knowledge automation.',
+    outcome: 'Turns static PDFs into searchable, conversational knowledge workflows.',
+    metrics: ['PDF ingestion', 'Semantic search', 'Document chat'],
+    highlights: [
+      'Designed ingestion flow for upload, parsing, chunking, and retrieval',
+      'Built reusable primitives for private knowledge-base automation',
+      'Focused on explainable document answers instead of generic chatbot output',
+    ],
     tech: ['Python', 'RAG', 'Vector Search', 'PDF Processing'],
     link: 'https://github.com/Samyak-jain7/document-intelligence',
+    cta: 'View repository',
   },
   {
     title: 'Multi-Agent Orchestrator',
-    signal: 'AI automation contract use-case',
+    category: 'Agents / Workflow Automation',
+    signal: 'AI automation prototype',
     description:
-      'Visual platform to configure and run multiple AI agents for complex tasks — relevant for workflow automation, internal tools, ops copilots, and agentic business process prototypes.',
+      'Visual platform to configure and run multiple AI agents for workflow automation, internal tools, ops copilots, and agentic business-process prototypes.',
+    outcome: 'Makes complex agent workflows inspectable, configurable, and easier to ship.',
+    metrics: ['Visual workflows', 'Agent routing', 'Ops copilots'],
+    highlights: [
+      'Modeled multi-step AI tasks as configurable flows',
+      'Separated orchestration concerns from user-facing workflow controls',
+      'Built as a strong starting point for internal automation systems',
+    ],
     tech: ['TypeScript', 'React', 'AI Agents', 'Workflows'],
     link: 'https://github.com/Samyak-jain7/multi-agent-orchestrator',
+    cta: 'View repository',
+  },
+];
+
+export const services = [
+  {
+    title: 'Senior SDE',
+    label: 'Primary target',
+    description:
+      'Backend ownership for product teams: APIs, distributed systems, reliability, performance, and production engineering judgment.',
+    tech: ['Java', 'Golang', 'Python', 'AWS', 'Redis'],
+  },
+  {
+    title: 'AI Native SDE',
+    label: 'Target direction',
+    description:
+      'Engineering roles where backend systems integrate LLMs, agents, retrieval, evaluation, and AI-powered product workflows.',
+    tech: ['LLMs', 'Agents', 'RAG', 'Python', 'APIs'],
+  },
+  {
+    title: 'SDE - Applied AI',
+    label: 'Project proof',
+    description:
+      'Applied AI product work: document intelligence, multi-agent workflows, internal copilots, and AI features that ship inside real apps.',
+    tech: ['RAG', 'Vector Search', 'React', 'TypeScript', 'Python'],
   },
 ];
 
 export const skills = [
   { group: 'Languages', items: ['Java', 'Python', 'Golang', 'C++'] },
   { group: 'Backend', items: ['Spring Boot', 'Django', 'Flask', 'REST APIs', 'Microservices'] },
-  { group: 'Data Infra', items: ['Kafka', 'Kafka Connect', 'Debezium', 'Snowflake', 'Streaming Pipelines'] },
+  { group: 'Applied AI', items: ['RAG', 'AI Agents', 'Vector Search', 'Document Intelligence', 'Workflow Automation'] },
   { group: 'Databases', items: ['MongoDB', 'PostgreSQL', 'DynamoDB', 'Redis'] },
   { group: 'Cloud / DevOps', items: ['AWS', 'GCP', 'Docker', 'Kubernetes', 'CI/CD'] },
   { group: 'Observability', items: ['Prometheus', 'Grafana', 'VictoriaMetrics', 'DataDog'] },
