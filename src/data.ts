@@ -8,7 +8,6 @@ export const stats = [
 export const contactLinks = {
   email: 'mailto:sj221097@gmail.com',
   bookCall: 'mailto:sj221097@gmail.com?subject=Senior%20backend%20role%20intro',
-  resume: 'mailto:sj221097@gmail.com?subject=Resume%20request',
   linkedin: 'https://www.linkedin.com/in/silver-samyak',
   github: 'https://github.com/Samyak-jain7',
 };

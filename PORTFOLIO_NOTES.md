@@ -4,7 +4,6 @@ These are the only pieces intentionally left as placeholders because they need r
 
 ## Needs Samyak Input
 
-- Resume link or PDF: the site currently uses a `mailto:` "Request resume" link. Replace `contactLinks.resume` in `src/data.ts` with a public resume URL or add a PDF to `public/`.
 - Booking link: the site currently uses a `mailto:` "Book intro call" link. Replace `contactLinks.bookCall` in `src/data.ts` with a Cal.com, Calendly, or similar scheduling URL.
 - Project proof assets: project cards currently use designed visual workflow previews. Add real screenshots, demo videos, or architecture diagrams when available.
 - Live project URLs: project CTAs currently point to GitHub repositories. Add live demo links where the projects are deployed.

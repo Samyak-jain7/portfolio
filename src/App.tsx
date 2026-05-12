@@ -47,7 +47,6 @@ function Hero() {
           <div className="hero-links" aria-label="Professional links">
             <a href={contactLinks.github} target="_blank" rel="noreferrer">GitHub</a>
             <a href={contactLinks.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href={contactLinks.resume}>Request resume</a>
           </div>
         </div>
 
@@ -145,7 +144,7 @@ function Projects() {
       <div className="section-header">
         <div>
           <div className="section-label">Selected Projects</div>
-          <h2>Proof of backend and AI ownership beyond the resume.</h2>
+          <h2>Proof of backend and AI ownership beyond job history.</h2>
         </div>
         <a className="text-link" href={contactLinks.github} target="_blank" rel="noreferrer">View GitHub -&gt;</a>
       </div>
@@ -249,7 +248,6 @@ function Contact() {
       <div className="contact-actions">
         <a className="button primary" href={contactLinks.email}>Discuss a senior role</a>
         <a className="button secondary" href={contactLinks.bookCall}>Book intro call</a>
-        <a className="button secondary" href={contactLinks.resume}>Request resume</a>
         <a className="button secondary" href={contactLinks.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
         <a className="button secondary" href={contactLinks.github} target="_blank" rel="noreferrer">GitHub</a>
       </div>
